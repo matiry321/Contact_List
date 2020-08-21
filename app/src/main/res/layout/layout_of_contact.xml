@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginLeft="10dp"
+        android:elevation="30dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="160dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/ic_profile"
+
+            android:id="@+id/imagecontact"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/imagecontact"
+            android:text="Name - "
+            android:textSize="20sp"
+            android:id="@+id/tryyu"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tryyu"
+            android:text="the real name"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:fontFamily="cursive"
+            android:id="@+id/nameofperson"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameofperson"
+            android:text="Phone Number - "
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/imagecontact"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/trryui"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9834XXXXXX"
+            android:layout_toRightOf="@+id/trryui"
+            android:layout_below="@id/nameofperson"
+            android:layout_marginTop="3dp"
+            android:textSize="15sp"
+            android:id="@+id/phonenumber"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
